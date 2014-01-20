@@ -22,7 +22,10 @@ rec.ck:[filename].wav
 
 <h1>Examples</h1>
 Sample2.wav was generated using the first twenty or so lines of "The Chaos" by G. Nolst Trenite.
+
 The phoneme file is phonemes/sample2.pho
+
 The instruments used were drums1 and keyboard1
+
 So you can regenerate this audio by running the following command
 `chuck tg.ck phogen.ck:true:"phonemes/sample2.pho":inst/drums1.ck:inst/keyboard1.ck inst/phogen_instrument.ck rec.ck:new_sample.wav`
